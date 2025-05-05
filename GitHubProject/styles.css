@@ -1,0 +1,15 @@
+﻿body {
+    background-color: bisque;
+}
+th {
+    font-size:20px;
+    font-style:oblique;
+}
+table{
+    border-spacing:30px;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
