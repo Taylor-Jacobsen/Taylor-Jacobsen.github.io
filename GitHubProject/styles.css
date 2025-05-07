@@ -12,4 +12,17 @@ table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
 }
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    max-width: 800px;
+    margin: auto;
+}
+
+    .grid-container img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
 
