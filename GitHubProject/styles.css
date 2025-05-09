@@ -12,17 +12,36 @@ table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
 }
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    max-width: 800px;
-    margin: auto;
+img{
+    border-spacing:10px;
 }
 
-    .grid-container img {
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    width: 90vw;
+    max-width: 900px;
+    aspect-ratio: 3 / 2;
+    padding: 10px;
+    
+}
+
+    .grid img {
         width: 100%;
-        height: auto;
+        height: 100%;
+        object-fit: cover;
         display: block;
+        
+    }
+    
+    a{
+        transition: 1s;
+    }
+    a:hover{
+        font-size:50px;
+        color:red;
     }
 
