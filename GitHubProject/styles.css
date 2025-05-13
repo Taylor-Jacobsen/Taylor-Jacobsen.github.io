@@ -12,8 +12,11 @@ table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
 }
-img{
-    border-spacing:10px;
+img {
+    border-spacing: 10px;
+    border-radius: 8px;
+    gap: 10px;
+    
 }
 
 
@@ -34,8 +37,9 @@ img{
         height: 100%;
         object-fit: cover;
         display: block;
-        
+        border-radius:8px;
     }
+    
     
     a{
         transition: 1s;
@@ -44,4 +48,35 @@ img{
         font-size:50px;
         color:red;
     }
+    h2{
+        font-size:20px;
+        font-style:oblique;
+    }
+    h1{
+        font-family: 'Sitka Small';
+    }
+    p{
+        font-size:15px;
+        font-family:'Trebuchet MS';
+    }
+
+
+.topnav {
+    float: left;
+}
+
+    .topnav a {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        border:double;
+    }
+
+        
+        .topnav a:hover {
+            background-color: white;
+        }
+    
 
