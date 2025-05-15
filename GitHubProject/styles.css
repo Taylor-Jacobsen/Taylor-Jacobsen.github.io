@@ -38,6 +38,7 @@ img {
         object-fit: cover;
         display: block;
         border-radius:8px;
+
     }
     
     
@@ -73,10 +74,27 @@ img {
         text-decoration: none;
         border:double;
     }
+    .fizz{
+        padding-left:40px;
+    }
 
         
         .topnav a:hover {
             background-color: white;
         }
+
+.tiger {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+.top{
+    text-align:center;
+}
+.good {
+    padding-top: 40px;
+    padding-left: 60px;
+    border-radius: 8px;
+}
     
 
